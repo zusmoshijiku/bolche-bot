@@ -1,0 +1,19 @@
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    line-height: 1.25;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-weight: 900;
+    display: inline-block
+}
+
+footer {
+    position: left;
+}
