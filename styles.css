@@ -6,13 +6,29 @@ nav {
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
     line-height: 1.25;
-    background-color: rgb(149, 145, 145);
+    background-color: rgb(255, 255, 255);
     position: fixed;
     top: 0;
     width: 100%;
     font-weight: 900;
     display: inline-block
 }
+body {
+    background-color: rgba(255, 255, 255, 0.571);
+}
+
+ul {
+    padding-left: 2rem;
+    list-style-type: none;
+  }
+  
+  ul li {
+    padding-left: 2rem;
+    background-image: url(star.svg);
+    background-position: 0 0;
+    background-size: 1.6rem 1.6rem;
+    background-repeat: no-repeat;
+  }
 
 footer {
     position: left;
